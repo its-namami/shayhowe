@@ -1,0 +1,60 @@
+@font-face {
+	font-family: "Mochiy Pop P One";
+	src: url(../fonts/Mochiy_Pop_P_One/MochiyPopPOne-Regular.ttf);
+}
+
+section {
+	font-family: "Mochiy Pop P One";
+}
+
+.color-red {
+	color: red;
+}
+
+.big-font {
+	font-size: 2rem;
+}
+
+.decently-large-font {
+	font-size: 1.5rem;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+dd {
+	margin-left: 2rem;
+}
+
+.strong-ruby {
+	font-weight: 500;
+}
+	
+.strong-ruby rt {
+	font-weight: 400;
+}
+
+.margin-bottom-middle {
+	margin-bottom: 1rem;
+}
+
+rt {
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+rt:hover {
+	-webkit-user-select: text;
+	user-select: text;
+}
+
+small {
+	font-size: 70%;
+}
+
+sup {
+	vertical-align: super;
+}
+
+
