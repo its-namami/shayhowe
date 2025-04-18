@@ -3,6 +3,13 @@
 	src: url(../fonts/Mochiy_Pop_P_One/MochiyPopPOne-Regular.ttf);
 }
 
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 section {
 	font-family: "Mochiy Pop P One";
 }
@@ -13,6 +20,10 @@ section {
 
 .big-font {
 	font-size: 2rem;
+}
+
+.mid-sized-font {
+	font-size: 1.2rem;
 }
 
 .decently-large-font {
@@ -42,6 +53,7 @@ dd {
 rt {
 	-webkit-user-select: none;
 	user-select: none;
+	filter: brightness(50%);
 }
 
 small {
@@ -50,5 +62,11 @@ small {
 
 sup {
 	vertical-align: super;
+}
+
+.container {
+	padding: 0 30px;
+	width: 100rem;
+	margin: 0 auto;
 }
 
